@@ -20,7 +20,7 @@ li {
 /*------------------------ 2 Home ------------------------*/
 
 .main {
-    background: url(ban.jpg) no-repeat;
+    background: url('../images/ban.jpg') no-repeat;
     background-size: cover;
     display: table;
     width: 100%;
@@ -101,7 +101,7 @@ li {
     height: 45px;
     width: 45px;
     border-radius: 50%;
-    background:rgba(0, 0, 0, 0.3) url(cd-icon-close.svg)no-repeat center center;
+    background:rgba(0, 0, 0, 0.3) url('../images/cd-icon-close.svg')no-repeat center center;
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
@@ -169,7 +169,7 @@ li {
     height: 100%;
     /* our sprite is composed of 25 frames */
     width: 2500%;
-    background: url(ink.png) no-repeat 0 0;
+    background: url('../images/ink.png') no-repeat 0 0;
     background-size: 100% 100%;
 }
 
