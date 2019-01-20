@@ -2,33 +2,37 @@
 <html lang="en">
 
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Web Salon</title>
 
-    <!-- LINKS -->
+    <!-- BULMA -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">    
+
+    <!-- FONT -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
 
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-
-    
 
 </head>
 
 <body>
-
-
     <header>
-        <div class="logo float-left">
+        <div class="logo">
             <h1>
                 <a href="">WEB SALON</a>
             </h1>
+            
         </div>
 
-        <div class="nav-icon float-right">
+        <div class="nav-icon">
             <span></span>
             <span></span>
             <span></span>
         </div>
+        
     </header>
 
     <!-- Full Menu -->
@@ -36,47 +40,37 @@
         <div class="fullmenu-content">
             <ul class="page-menu">
                 <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="">About</a></li>
-                <!-- <li><a href="">Blog Posts</a></li> -->
-                <li><a href="">Contact</a></li>
-                <!-- <li><a href="#">Buy Now</a></li> -->
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
                 <li class="social">
-                    <!-- <a href="#"><img src="icons/social/twitter.svg" alt=""</a> -->
-                    <!-- <a href="#"><img src="icons/social/dribbble.svg" alt=""</a> -->
+                    <a href="https://github.com/anupm12"><img src="icons/social/github.svg" alt=""></a>
                     <a href="https://www.instagram.com/_anupm/"><img src="icons/social/instagram.svg" alt=""></a>
-                    <!-- <a href="#"><img src="icons/social/send.svg" alt=""></a> -->
                 </li>
             </ul>
         </div>
         <a href="#0" class="modal-close">Close</a>
     </div>
+
+    <!-- Ink Transition -->
     <div class="cd-transition-layer visible opening">P
+        <div class="bg-layer">
 
-        <div class="bg-layer"></div>
-    </div><!-- Ink Transition -->
-
-    <div class="wrapper">
-
-        <section class="main">
-            <div class="main-content">
-                <span class="hello">Hola fellas!!</span>
-                <h1 class="main-title">This is my portfolio<br>
-                    I design and develop websites.</h1>
-                <div class="social">
-                    <!-- <a href="#"><img src="icons/social/twitter.svg" alt=""</a> -->
-                    <a href="https://www.instagram.com/_anupm/"><img src="icons/social/instagram.svg" alt=""></a>
-                    <!-- <a href="#"><img src="icons/social/dribbble.svg" alt=""</a> -->
-                    <!-- <a href="#"><img src="icons/social/send.svg" alt=""></a> -->
-                </div>
-
-            </div>
-
-        </section>
-
+        </div>
     </div>
 
-    <div>
-        <h1>hello web Salon</h1>
+    <div class="wrapper">
+        <section class="main">
+            <div class="main-content">
+                <h1 class="hello title">Hola fellas!!</h1>
+                <h4 class="main-title sub-title">This is my portfolio<br>
+                    I design and develop websites.</h4>
+                    <p class="hello sub-title">Find me here</p>
+                <div class="social">
+                    <a href="https://www.instagram.com/_anupm/"><img src="icons/social/instagram.svg" alt=""></a>
+                    <a href="https://github.com/anupm12"><img src="icons/social/github.svg" alt=""></a>
+                </div>
+            </div>
+        </section>
     </div>
 
 </body>
@@ -84,9 +78,8 @@
 
 
 
+<!-- SCRIPTS -->
 <script src="jquery.min.js"></script>
-
 <script type="text/javascript" src="js/main.js"></script>
-
 
 </html>

@@ -1,14 +1,16 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
-  overflow: hidden;
+  overflow: hidden !important;
   margin: 0;
-  padding: 0; }
-
-.nav-up {
-  top: -40px; }
+  padding: 0;
+  position: fixed;
+  width: 100%; }
 
 li {
   list-style: none; }
+
+a {
+  text-decoration: none; }
 
 /*------------------------ 2 Home ------------------------*/
 .main {
@@ -27,19 +29,12 @@ li {
   opacity: .85;
   position: absolute; }
 
-.nav-icon {
-  margin-left: 990px;
-  margin-top: -540px; }
+.hello {
+  color: #fff !important; }
 
 .main-title {
   font-size: 24px;
-  line-height: 28px;
-  color: #fff;
-  font-weight: 400; }
-
-.hello {
-  color: #fff;
-  line-height: 51px; }
+  color: #fff; }
 
 .main-content {
   padding: 0 60px;
@@ -50,7 +45,7 @@ li {
 
 .logo a {
   color: orange;
-  margin-left: 30px;
+  margin-left: 50px;
   border: 1px solid white;
   background: white;
   font-size: 30px; }
@@ -60,6 +55,7 @@ li {
 
 /*------------------------ 2.1 Full Menu ------------------------*/
 .full-menu {
+  margin: auto;
   position: fixed;
   top: 0;
   left: 0;
@@ -79,11 +75,11 @@ li {
   z-index: 1;
   top: 0;
   right: 0;
-  padding: 50px;
-  height: 45px;
-  width: 45px;
+  padding: 53px;
+  height: 35px;
+  width: 35px;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.3) url("../images/cd-icon-close.svg") no-repeat center center;
+  background: #000001 url("../images/cd-icon-close.svg") no-repeat center center;
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
@@ -112,8 +108,6 @@ li {
   transform: scale(1); }
 
 @media only screen and (min-width: 1100px) {
-  .full-menu .fullmenu-content {
-    padding: 6em 5%; }
   .full-menu .modal-close {
     height: 60px;
     width: 60px; }
@@ -198,7 +192,7 @@ li {
   width: 15px; }
 
 .main .social {
-  margin-top: 30px; }
+  margin-top: 10px; }
 
 .social a {
   margin-right: 20px; }
@@ -218,7 +212,12 @@ header {
   z-index: 2; }
 
 .nav-icon {
-  width: 23px;
+  margin-left: 990px;
+  margin-top: -540px; }
+
+.nav-icon {
+  background: #FFA573;
+  width: 40px;
   height: 18px;
   position: relative;
   transform: rotate(0deg);
